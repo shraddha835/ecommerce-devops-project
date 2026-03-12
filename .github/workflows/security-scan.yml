@@ -1,0 +1,53 @@
+name: Security Scan
+
+on:
+  push:
+    branches: [ main, develop ]
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday
+
+jobs:
+  dependency-scan:
+    name: Dependency Security Scan
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Run Trivy vulnerability scanner
+      uses: aquasecurity/trivy-action@master
+      with:
+        scan-type: 'fs'
+        scan-ref: '.'
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+    
+    - name: Upload Trivy results to GitHub Security
+      uses: github/codeql-action/upload-sarif@v2
+      with:
+        sarif_file: 'trivy-results.sarif'
+
+  docker-scan:
+    name: Docker Image Scan
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        service: [frontend, user-service, product-service]
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Build Docker image
+      run: |
+        if [ "${{ matrix.service }}" = "frontend" ]; then
+          docker build -t ${{ matrix.service }}:test ./frontend
+        else
+          docker build -t ${{ matrix.service }}:test ./backend/${{ matrix.service }}
+        fi
+    
+    - name: Scan Docker image
+      uses: aquasecurity/trivy-action@master
+      with:
+        image-ref: ${{ matrix.service }}:test
+        format: 'table'
+        severity: 'CRITICAL,HIGH'

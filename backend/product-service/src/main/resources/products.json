@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Pro 14",
+    "price": 84999,
+    "description": "High-performance laptop for coding and design.",
+    "stock": 15,
+    "image": "https://live.staticflickr.com/2222/1968998469_8e99bf1e7a_b.jpg",
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone X",
+    "price": 62999,
+    "description": "Flagship smartphone with excellent camera.",
+    "stock": 25,
+    "image": "https://live.staticflickr.com/3719/11534916166_fb548a2cac.jpg",
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Noise-Canceling Headphones",
+    "price": 12999,
+    "description": "Wireless over-ear headphones with ANC.",
+    "stock": 50,
+    "image": "https://live.staticflickr.com/65535/52436478301_811f7eaf2d_b.jpg",
+    "category": "Audio"
+  },
+  {
+    "id": 4,
+    "name": "Smart Watch Fit",
+    "price": 14999,
+    "description": "Fitness watch with heart-rate and sleep tracking.",
+    "stock": 30,
+    "image": "https://live.staticflickr.com/3790/13467474815_be54810773_b.jpg",
+    "category": "Wearables"
+  },
+  {
+    "id": 5,
+    "name": "Mirrorless Camera",
+    "price": 92999,
+    "description": "Professional camera for creators.",
+    "stock": 10,
+    "image": "https://live.staticflickr.com/1764/42528432014_a60c17c027_b.jpg",
+    "category": "Photography"
+  },
+  {
+    "id": 6,
+    "name": "Tablet Air",
+    "price": 32999,
+    "description": "Portable tablet for media and productivity.",
+    "stock": 20,
+    "image": "https://live.staticflickr.com/3511/4559342399_c42669c53c_b.jpg",
+    "category": "Electronics"
+  },
+  {
+    "id": 7,
+    "name": "Gaming Console Z",
+    "price": 44999,
+    "description": "Next-gen gaming console for immersive play.",
+    "stock": 12,
+    "image": "https://live.staticflickr.com/8867/17996356794_ddf91a3b67_b.jpg",
+    "category": "Gaming"
+  },
+  {
+    "id": 8,
+    "name": "Mechanical Keyboard",
+    "price": 5999,
+    "description": "RGB mechanical keyboard with tactile switches.",
+    "stock": 40,
+    "image": "https://live.staticflickr.com/8238/8456245466_49fd7fb092_b.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 9,
+    "name": "Wireless Gaming Mouse",
+    "price": 3499,
+    "description": "Ergonomic low-latency gaming mouse.",
+    "stock": 60,
+    "image": "https://live.staticflickr.com/65535/48064933943_30cfc4d8ed_b.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 10,
+    "name": "Running Shoes Pro",
+    "price": 7999,
+    "description": "Lightweight athletic running shoes with cushioning.",
+    "stock": 35,
+    "image": "https://live.staticflickr.com/3070/3248978863_6a104b81ea_b.jpg",
+    "category": "Sports"
+  },
+  {
+    "id": 11,
+    "name": "Yoga Mat Premium",
+    "price": 2499,
+    "description": "Non-slip yoga mat for home and gym workouts.",
+    "stock": 45,
+    "image": "https://live.staticflickr.com/3570/3286289446_51157914b2_b.jpg",
+    "category": "Sports"
+  },
+  {
+    "id": 12,
+    "name": "Dumbbells Set",
+    "price": 8999,
+    "description": "Adjustable dumbbells set 5-25kg for strength training.",
+    "stock": 18,
+    "image": "https://live.staticflickr.com/7322/9807294263_8e4af5ccb8.jpg",
+    "category": "Sports"
+  },
+  {
+    "id": 13,
+    "name": "Stainless Steel Cookware Set",
+    "price": 14999,
+    "description": "Premium 12-piece cookware set with non-stick coating.",
+    "stock": 12,
+    "image": "https://live.staticflickr.com/7359/9281822580_605d71115f_b.jpg",
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": 14,
+    "name": "Electric Coffee Maker",
+    "price": 4499,
+    "description": "Programmable coffee maker with thermal carafe.",
+    "stock": 22,
+    "image": "https://live.staticflickr.com/2/3606961_7845f17810_b.jpg",
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": 15,
+    "name": "Organic Cotton T-Shirt",
+    "price": 1299,
+    "description": "Premium organic cotton comfort t-shirt in multiple colors.",
+    "stock": 100,
+    "image": "https://live.staticflickr.com/1302/552916951_ed2a3656ac_b.jpg",
+    "category": "Clothing"
+  },
+  {
+    "id": 16,
+    "name": "Denim Jeans Classic",
+    "price": 3499,
+    "description": "Classic fit denim jeans with perfect comfort and style.",
+    "stock": 55,
+    "image": "https://live.staticflickr.com/21/38732017_085c333ee8_b.jpg",
+    "category": "Clothing"
+  },
+  {
+    "id": 17,
+    "name": "Leather Jacket Premium",
+    "price": 24999,
+    "description": "Genuine leather jacket with perfect fit and durability.",
+    "stock": 8,
+    "image": "https://live.staticflickr.com/2832/12722171993_ffa5053ef1_b.jpg",
+    "category": "Clothing"
+  },
+  {
+    "id": 18,
+    "name": "Face Moisturizer Gel",
+    "price": 1999,
+    "description": "Lightweight hydrating facial moisturizer for all skin types.",
+    "stock": 80,
+    "image": "https://live.staticflickr.com/5055/5388928169_c7b24f9745_b.jpg",
+    "category": "Beauty"
+  },
+  {
+    "id": 19,
+    "name": "Sunscreen SPF50",
+    "price": 899,
+    "description": "Water-resistant broad spectrum sunscreen lotion.",
+    "stock": 120,
+    "image": "https://live.staticflickr.com/2025/1594757774_bc219ed640_b.jpg",
+    "category": "Beauty"
+  },
+  {
+    "id": 20,
+    "name": "Bestseller Novel",
+    "price": 399,
+    "description": "Highly acclaimed fiction novel - international bestseller.",
+    "stock": 50,
+    "image": "https://live.staticflickr.com/21/27696740_df36f1519a_b.jpg",
+    "category": "Books"
+  },
+  {
+    "id": 21,
+    "name": "Self-Help Workbook",
+    "price": 599,
+    "description": "Interactive workbook for personal growth and development.",
+    "stock": 35,
+    "image": "https://live.staticflickr.com/5482/11302243734_fc216c2883_b.jpg",
+    "category": "Books"
+  },
+  {
+    "id": 22,
+    "name": "Wireless Bluetooth Speaker",
+    "price": 3999,
+    "description": "Portable waterproof speaker with 360° sound quality.",
+    "stock": 28,
+    "image": "https://live.staticflickr.com/8715/16827930747_561ee5a8a1_b.jpg",
+    "category": "Audio"
+  },
+  {
+    "id": 23,
+    "name": "USB-C Fast Charger",
+    "price": 1999,
+    "description": "Multi-port USB-C charger for fast device charging.",
+    "stock": 90,
+    "image": "https://live.staticflickr.com/8447/7749218052_786f6462e0_b.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 24,
+    "name": "Webcam 4K Ultra HD",
+    "price": 7499,
+    "description": "Professional 4K webcam for streaming and video calls.",
+    "stock": 16,
+    "image": "https://live.staticflickr.com/4611/38923987065_031fc64d26_b.jpg",
+    "category": "Electronics"
+  },
+  {
+    "id": 25,
+    "name": "Portable Power Bank 30000mAh",
+    "price": 3499,
+    "description": "Fast charging power bank with dual USB ports.",
+    "stock": 45,
+    "image": "https://live.staticflickr.com/7286/26544211123_9285f20137_b.jpg",
+    "category": "Accessories"
+  },
+  {
+    "id": 26,
+    "name": "Vintage Wall Clock",
+    "price": 2999,
+    "description": "Elegant vintage-style wall clock for any room.",
+    "stock": 20,
+    "image": "https://live.staticflickr.com/2947/33750132165_a5c49ca9a2_b.jpg",
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": 27,
+    "name": "Blender Professional",
+    "price": 6999,
+    "description": "High-powered smoothie and food processor blender.",
+    "stock": 14,
+    "image": "https://live.staticflickr.com/2071/1528291074_1edd0b4a77.jpg",
+    "category": "Home & Kitchen"
+  },
+  {
+    "id": 28,
+    "name": "Tennis Racket Carbon",
+    "price": 9999,
+    "description": "Professional carbon fiber tennis racket for advanced players.",
+    "stock": 10,
+    "image": "https://live.staticflickr.com/2799/4370537412_ffcd72ac87.jpg",
+    "category": "Sports"
+  },
+  {
+    "id": 29,
+    "name": "Winter Beanie Hat",
+    "price": 899,
+    "description": "Warm knitted beanie hat in multiple colors.",
+    "stock": 60,
+    "image": "https://live.staticflickr.com/7005/26794250530_6f6064bdee_b.jpg",
+    "category": "Clothing"
+  },
+  {
+    "id": 30,
+    "name": "Portable Projector Mini",
+    "price": 19999,
+    "description": "Compact LED projector for home theater and outdoor movies.",
+    "stock": 7,
+    "image": "https://live.staticflickr.com/3309/3308592732_dbef59e3ab_b.jpg",
+    "category": "Electronics"
+  }
+]
