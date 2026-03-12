@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: eureka-server
-        image: ecommerce/eureka-server:latest
+        image: shraddha835/eureka-server:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8761

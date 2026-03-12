@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: ecommerce/user-service:latest
+        image: shraddha835/user-service:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8081

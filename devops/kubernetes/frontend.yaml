@@ -15,13 +15,15 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ecommerce/frontend:latest
+        image: shraddha835/frontend:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
         env:
-        - name: API_GATEWAY_URL
-          value: "http://api-gateway:8080"
+        - name: NEXT_PUBLIC_USER_SERVICE_URL
+          value: "http://user-service:8081"
+        - name: NEXT_PUBLIC_PRODUCT_SERVICE_URL
+          value: "http://product-service:8082"
         resources:
           requests:
             memory: "256Mi"
