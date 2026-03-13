@@ -111,19 +111,20 @@ jobs:
         cache-to: type=gha,mode=max
 
   # ─────────────────────────────────────────────
-  # 4. Deploy to Kubernetes  (main branch only)
+  # 4. Deploy to Kubernetes  (only if KUBE_CONFIG secret is set)
   # ─────────────────────────────────────────────
   deploy-to-k8s:
     name: Deploy to Kubernetes
     needs: build-and-push
     runs-on: ubuntu-latest
+    continue-on-error: true
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     steps:
     - uses: actions/checkout@v4
 
     - name: Configure kubectl
-      uses: azure/k8s-set-context@v3
+      uses: azure/k8s-set-context@v4
       with:
         method: kubeconfig
         kubeconfig: ${{ secrets.KUBE_CONFIG }}
