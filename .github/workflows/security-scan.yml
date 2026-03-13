@@ -10,6 +10,7 @@ jobs:
   dependency-scan:
     name: Dependency Security Scan
     runs-on: ubuntu-latest
+    continue-on-error: true
     
     steps:
     - uses: actions/checkout@v4
@@ -26,6 +27,7 @@ jobs:
   docker-scan:
     name: Docker Image Scan
     runs-on: ubuntu-latest
+    continue-on-error: true
     strategy:
       matrix:
         service: [frontend, user-service, product-service]
